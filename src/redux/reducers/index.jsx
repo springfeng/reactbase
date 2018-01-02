@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import todolist from './todos';
-// import visibilityFilter from './visibilityFilter';
+import tmp from '../reducers/tmp';
 
+//合并reducer
 const reducer = combineReducers({
-    todolist,
+    tmp,
 });
 
 export default reducer;
