@@ -15,6 +15,8 @@ class SiteRouter extends Component{
           <Router>
             <div>
               <Route exact path="/" component={Login}/>
+              
+              {/*在此添加路由数据*/}
               <Route exact path="/Index" component={Index}/>
             </div>
         </Router>
