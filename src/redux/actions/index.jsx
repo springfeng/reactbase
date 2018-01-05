@@ -1,4 +1,5 @@
-/*
+/**
+ * 定义变量
  */
 
 export const CHANGE_TODO_TO_DOING = 'Change_Todo_To_Doing';
@@ -6,12 +7,16 @@ export const CHANGE_TODO_TO_DOING = 'Change_Todo_To_Doing';
 
 
 /*
- * @method  changeTodoToDoing 状态由todo转为doing
- * @param  {Number} index 需要改变状态的事项的下标
+ * 
  */
-export function changeTodoToDoing(index) {
+export function changeTodoToDoing() {
+    //处理逻辑并返回状态值
+
+    // 处理逻辑
+    alert("3")
+    
+    //返回状态值
     return {
-        type: CHANGE_TODO_TO_DOING,
-        index,
+        type: CHANGE_TODO_TO_DOING
     };
 }
